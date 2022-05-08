@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Remove Arch Packages",
+  "description": "Remove Arch packages using Ulauncher",
+  "developer_name": "Dankni95",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.3
+  },
+  "preferences": [
+    {
+      "id": "aur-remove",
+      "type": "keyword",
+      "name": "Remove Arch Packages",
+      "description": "Remove Arch packages with ulauncher",
+      "default_value": "rm"
+    }
+  ]
+}
