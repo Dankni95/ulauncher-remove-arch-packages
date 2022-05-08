@@ -1,14 +1,12 @@
 
 # [uLauncher](https://github.com/Ulauncher/Ulauncher) remove Arch packages
 
+### Little tool written in python to remove Arch packages using uLauncher
+
 
 <p align="center">
    <img src="https://user-images.githubusercontent.com/71786017/167298186-b39beeb5-02c3-4326-9cf3-26a79b5dba08.png" alt="animated" />
 </p>
-
-
-
-### Little tool written in python to remove Arch packages using uLauncher
 
  
 
