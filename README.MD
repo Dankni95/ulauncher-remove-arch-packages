@@ -27,6 +27,11 @@ To "scroll" type `rm -> write number to show packages further down`.
 
 <br>
 
+## Preferences for download repositories
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/71786017/167305154-9ec29045-a632-4949-9504-621d5c8a64bf.png" alt="animated" />
+</p>
+
 
 ### Currently
 * No error handling
