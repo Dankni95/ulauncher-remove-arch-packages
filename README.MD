@@ -1,9 +1,9 @@
 
-# [uLauncher](https://github.com/Ulauncher/Ulauncher) Arch remove package
-
+# [uLauncher](https://github.com/Ulauncher/Ulauncher) remove Arch packages
 
 
 <p align="center">
+   <img src="https://user-images.githubusercontent.com/71786017/167298186-b39beeb5-02c3-4326-9cf3-26a79b5dba08.png" alt="animated" />
 </p>
 
 
@@ -18,10 +18,16 @@ Open uLauncher preferences window -> extensions -> add extension and paste the f
 
 ## Start up 
 Start uLauncher and type `rm`. <br>
-To search `rm -> name of the package or using arrows, enter to delete`.
+To search type `rm -> name of the package or using arrows, enter to delete`.
 
 ## Scrolling(kinda)
- `rm -> write number to show packages further down` <br>
+To "scroll" type `rm -> write number to show packages further down`.
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/71786017/167298294-0e56a004-8147-4399-a93e-4157bfcdb557.png" alt="animated" />
+</p>
+
+<br>
 
 
 ### Currently
