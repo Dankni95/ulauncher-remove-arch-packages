@@ -11,7 +11,7 @@
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
 0	manifest.json	/^        { "value": "-Qmq", "text": "Foreign repos (AUR)" },$/;"	o	array:preferences.1.options
 0	manifest.json	/^    {$/;"	o	array:preferences
-0	versions.json	/^	{"required_api_version": "^1.0.0", "commit": "main"}$/;"	o
+0	versions.json	/^	{"required_api_version": "^2.0.0", "commit": "main"}$/;"	o
 1	manifest.json	/^        { "value": "-Qenq", "text": "Official repos (PACMAN)" },$/;"	o	array:preferences.1.options
 1	manifest.json	/^    {$/;"	o	array:preferences
 2	manifest.json	/^        { "value": "-Qeq", "text": "All" }$/;"	o	array:preferences.1.options
@@ -23,7 +23,7 @@ RemovePackageMain	main.py	/^class RemovePackageMain(Extension):$/;"	c
 __init__	main.py	/^    def __init__(self):$/;"	m	class:RemovePackageMain
 _run	RM/__init__.py	/^def _run(command):$/;"	f
 _runRemove	RM/__init__.py	/^def _runRemove(command):$/;"	f
-commit	versions.json	/^	{"required_api_version": "^1.0.0", "commit": "main"}$/;"	s	object:0
+commit	versions.json	/^	{"required_api_version": "^2.0.0", "commit": "main"}$/;"	s	object:0
 default_value	manifest.json	/^      "default_value": "-Qmq",$/;"	s	object:preferences.1
 default_value	manifest.json	/^      "default_value": "rm"$/;"	s	object:preferences.0
 description	manifest.json	/^      "description": "Icon theme color",$/;"	s	object:preferences.1
@@ -49,7 +49,7 @@ query_debounce	manifest.json	/^    "query_debounce": 0.3$/;"	n	object:options
 remove	RM/__init__.py	/^def remove(package):$/;"	f
 render_main_page	main.py	/^    def render_main_page(self, action):$/;"	m	class:RemovePackageMain
 required_api_version	manifest.json	/^  "required_api_version": "^2.0.0",$/;"	s
-required_api_version	versions.json	/^	{"required_api_version": "^1.0.0", "commit": "main"}$/;"	s	object:0
+required_api_version	versions.json	/^	{"required_api_version": "^2.0.0", "commit": "main"}$/;"	s	object:0
 text	manifest.json	/^        { "value": "-Qenq", "text": "Official repos (PACMAN)" },$/;"	s	object:preferences.1.options.1
 text	manifest.json	/^        { "value": "-Qeq", "text": "All" }$/;"	s	object:preferences.1.options.2
 text	manifest.json	/^        { "value": "-Qmq", "text": "Foreign repos (AUR)" },$/;"	s	object:preferences.1.options.0
