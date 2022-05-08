@@ -14,20 +14,20 @@
 
 # Install
 Open uLauncher preferences window -> extensions -> add extension and paste the following url:
-``
+`https://github.com/Dankni95/ulauncher-remove-arch-packages`
 
 ## Start up 
 Start uLauncher and type `rm`. <br>
 To search `rm -> name of the package or using arrows, enter to delete`.
 
 ## Scrolling(kinda)
- `rm -> write number number to show packages further down` <br>
+ `rm -> write number to show packages further down` <br>
 
 
-###Currently
-* [] No error handling
-* [] No success prompt
-* [] Sudo prompts for every package, exits uLauncher
+### Currently
+* No error handling
+* No success prompt
+* Sudo prompts for every package, exits uLauncher
 
 
 
