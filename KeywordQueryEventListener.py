@@ -11,7 +11,9 @@ class KeywordQueryEventListener(EventListener):
     def on_event(self, event, extension):
 
         args = event.get_argument()
-        packageNames = RM.list()
+
+        repos = extension.preferences["repo"]
+        packageNames = RM.list(repos)
         items = []
 
         if args is not None:

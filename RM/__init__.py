@@ -21,18 +21,15 @@ def _runRemove(command):
     yes_proc.wait()
 
 
-def list():
+def list(repo):
 
-    packageString = _run(["pacman", "-Qm"])
+    packageString = _run(["pacman", repo])
     packageList = packageString.splitlines()
-    packageNames = []
-    for nameWithVersion in packageList:
-        name = nameWithVersion.split(" ")[0]
-        packageNames.append(name)
+    
 
     packageNamesWithIndex = []
-    for names in packageNames:
-        index = packageNames.index(names) + 1
+    for names in packageList:
+        index = packageList.index(names) + 1
         packageNamesWithIndex.append(str(index) + " -> " + names.strip())
     return packageNamesWithIndex
 

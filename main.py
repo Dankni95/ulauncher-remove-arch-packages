@@ -20,7 +20,8 @@ class RemovePackageMain(Extension):
 
     def render_main_page(self, action):
 
-        packageNames = RM.list()
+        repos = self.preferences["repo"]
+        packageNames = RM.list(repos)
 
         items = []
 

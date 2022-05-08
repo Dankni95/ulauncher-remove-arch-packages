@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/daniel/Documents/github/ulauncher-remove-arch-packages/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+0	manifest.json	/^        { "value": "-Qmq", "text": "Foreign repos (AUR)" },$/;"	o	array:preferences.1.options
+0	manifest.json	/^    {$/;"	o	array:preferences
+0	versions.json	/^	{"required_api_version": "^1.0.0", "commit": "main"}$/;"	o
+1	manifest.json	/^        { "value": "-Qenq", "text": "Official repos (PACMAN)" },$/;"	o	array:preferences.1.options
+1	manifest.json	/^    {$/;"	o	array:preferences
+2	manifest.json	/^        { "value": "-Qeq", "text": "All" }$/;"	o	array:preferences.1.options
+EXT_DIR	makefile	/^EXT_DIR:=$(shell pwd)$/;"	m
+EXT_NAME	makefile	/^EXT_NAME:=com.github.dankni95.ulauncher-remove-arch-packages$/;"	m
+ItemEnterEventListener	ItemEnterEventListener.py	/^class ItemEnterEventListener(EventListener):$/;"	c
+KeywordQueryEventListener	KeywordQueryEventListener.py	/^class KeywordQueryEventListener(EventListener):$/;"	c
+RemovePackageMain	main.py	/^class RemovePackageMain(Extension):$/;"	c
+__init__	main.py	/^    def __init__(self):$/;"	m	class:RemovePackageMain
+_run	RM/__init__.py	/^def _run(command):$/;"	f
+_runRemove	RM/__init__.py	/^def _runRemove(command):$/;"	f
+commit	versions.json	/^	{"required_api_version": "^1.0.0", "commit": "main"}$/;"	s	object:0
+default_value	manifest.json	/^      "default_value": "-Qmq",$/;"	s	object:preferences.1
+default_value	manifest.json	/^      "default_value": "rm"$/;"	s	object:preferences.0
+description	manifest.json	/^      "description": "Icon theme color",$/;"	s	object:preferences.1
+description	manifest.json	/^      "description": "Remove Arch packages with ulauncher",$/;"	s	object:preferences.0
+description	manifest.json	/^  "description": "Remove Arch packages using Ulauncher",$/;"	s
+dev	makefile	/^dev: $/;"	t
+developer_name	manifest.json	/^  "developer_name": "Dankni95",$/;"	s
+icon	manifest.json	/^  "icon": "images\/icon.png",$/;"	s
+id	manifest.json	/^      "id": "aur-remove",$/;"	s	object:preferences.0
+id	manifest.json	/^      "id": "repo",$/;"	s	object:preferences.1
+link	makefile	/^link: $/;"	t
+list	RM/__init__.py	/^def list(repo):$/;"	f
+logger	RM/__init__.py	/^logger = logging.getLogger(__name__)$/;"	v
+name	manifest.json	/^      "name": "Change icon theme",$/;"	s	object:preferences.1
+name	manifest.json	/^      "name": "Remove Arch Packages",$/;"	s	object:preferences.0
+name	manifest.json	/^  "name": "Remove Arch Packages",$/;"	s
+on_event	ItemEnterEventListener.py	/^    def on_event(self, event, extension):$/;"	m	class:ItemEnterEventListener
+on_event	KeywordQueryEventListener.py	/^    def on_event(self, event, extension):$/;"	m	class:KeywordQueryEventListener
+options	manifest.json	/^      "options": [$/;"	a	object:preferences.1
+options	manifest.json	/^  "options": {$/;"	o
+preferences	manifest.json	/^  "preferences": [$/;"	a
+query_debounce	manifest.json	/^    "query_debounce": 0.3$/;"	n	object:options
+remove	RM/__init__.py	/^def remove(package):$/;"	f
+render_main_page	main.py	/^    def render_main_page(self, action):$/;"	m	class:RemovePackageMain
+required_api_version	manifest.json	/^  "required_api_version": "^2.0.0",$/;"	s
+required_api_version	versions.json	/^	{"required_api_version": "^1.0.0", "commit": "main"}$/;"	s	object:0
+text	manifest.json	/^        { "value": "-Qenq", "text": "Official repos (PACMAN)" },$/;"	s	object:preferences.1.options.1
+text	manifest.json	/^        { "value": "-Qeq", "text": "All" }$/;"	s	object:preferences.1.options.2
+text	manifest.json	/^        { "value": "-Qmq", "text": "Foreign repos (AUR)" },$/;"	s	object:preferences.1.options.0
+type	manifest.json	/^      "type": "keyword",$/;"	s	object:preferences.0
+type	manifest.json	/^      "type": "select",$/;"	s	object:preferences.1
+value	manifest.json	/^        { "value": "-Qenq", "text": "Official repos (PACMAN)" },$/;"	s	object:preferences.1.options.1
+value	manifest.json	/^        { "value": "-Qeq", "text": "All" }$/;"	s	object:preferences.1.options.2
+value	manifest.json	/^        { "value": "-Qmq", "text": "Foreign repos (AUR)" },$/;"	s	object:preferences.1.options.0
