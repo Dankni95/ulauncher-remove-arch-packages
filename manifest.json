@@ -18,8 +18,8 @@
     {
       "id": "repo",
       "type": "select",
-      "name": "Change icon theme",
-      "description": "Icon theme color",
+      "name": "Download repositories",
+      "description": "Choose repositories for downloaded packages",
       "default_value": "-Qmq",
       "options": [
         { "value": "-Qmq", "text": "Foreign repos (AUR)" },
